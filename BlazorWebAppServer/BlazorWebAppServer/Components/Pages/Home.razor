@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your Interactive Server app.
+
+@if (!dismissed)
+{
+    <div class="border p-4 d-flex justify-content-between align-items-start bg-primary text-white">
+        <p class="fs-2">
+            @Text
+        </p>
+        <button @onclick="()=>dismissed=true">
+            X
+        </button>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public string Text { get; set; }
+
+    bool dismissed;
+
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAppWASM", "BlazorWebAppWASM\BlazorWebAppWASM\BlazorWebAppWASM.csproj", "{1EB98385-EA2B-4F8C-8EA9-3D602625000D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAppWASM.Client", "BlazorWebAppWASM\BlazorWebAppWASM.Client\BlazorWebAppWASM.Client.csproj", "{4693882F-57A0-4515-8BA1-5AD74672937D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB98385-EA2B-4F8C-8EA9-3D602625000D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB98385-EA2B-4F8C-8EA9-3D602625000D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB98385-EA2B-4F8C-8EA9-3D602625000D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB98385-EA2B-4F8C-8EA9-3D602625000D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4693882F-57A0-4515-8BA1-5AD74672937D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4693882F-57A0-4515-8BA1-5AD74672937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4693882F-57A0-4515-8BA1-5AD74672937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4693882F-57A0-4515-8BA1-5AD74672937D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A028C99F-D9E1-4090-9323-78196E863E30}
+	EndGlobalSection
+EndGlobal
